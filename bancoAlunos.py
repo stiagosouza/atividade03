@@ -2,7 +2,6 @@
 # respectivas disciplinas!
 
 import sqlite3
-from modeloAlunos import Alunos,Disciplinas,Notas
 
 banco = sqlite3.connect('provas alunos.db')
 banco.execute("PRAGMA forengn_keys=on") 
